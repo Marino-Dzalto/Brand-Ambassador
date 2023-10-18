@@ -28,6 +28,7 @@ var swiper = new Swiper(".slide-content", {
     },
   });
 
+  
   // JavaScript for the image slideshow
 let slideIndex = 0;
 showSlides();
@@ -43,5 +44,5 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 3500); // Change image every 2 seconds
+  setTimeout(showSlides, 3500); // seconds of change
 }
